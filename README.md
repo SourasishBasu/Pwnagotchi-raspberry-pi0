@@ -1,3 +1,8 @@
+<p align="left"> 
+   <br>
+   <img src="https://github.com/SourasishBasu/Pwnagotchi-raspberry-pi0/blob/8375bb5ee962219fba5de3d2255b88d4f2d7235d/assets/pwnagotchi.png"/>
+</p>
+
 # Pwnagotchi-raspberry-pi0
 
  A recreation of the original Pwnagotchi but with mods to support the officially unsupported Raspberry Pi 3.5 inch GPIO based screen.
@@ -104,7 +109,7 @@ Pwnagotchi will start in AUTO mode by default.
 It has a webUI hosted at http://10.0.0.2:8080/ and the username & password are both 'changeme' by default.
 
 <p align="center"> 
-  <img src="https://github.com/SourasishBasu/Pwnagotchi-raspberry-pi0/blob/4b7f3bf4dc8611646c52964b131ef126a1eda59f/assets/face.png" />
+  <img src="https://github.com/SourasishBasu/Pwnagotchi-raspberry-pi0/blob/8702a6467f7a288840aff517e5c250e1223706fb/assets/face.png" />
 </p>
 
 - Custom configurations are stored in
