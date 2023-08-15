@@ -66,9 +66,9 @@
 - To configure the screen
   - Fit the screen onto the GPIO pins on the RPi0 board
   
-<p align="center"> 
-  <img src="https://github.com/SourasishBasu/" />
-</p>
+    <p align="center"> 
+      <img src="https://github.com/SourasishBasu/Pwnagotchi-raspberry-pi0/blob/4b7f3bf4dc8611646c52964b131ef126a1eda59f/assets/IMG-20230802-WA0026.jpg" />
+    </p>
 
   - ```bash
     sudo rm -rf LCD-show
@@ -86,6 +86,6 @@
 - The screen will boot. Don't disconect or the whole process may have to be repeated again.
 
 <p align="center"> 
-  <img src="https://github.com/SourasishBasu/" />
+  <img src="https://github.com/SourasishBasu/Pwnagotchi-raspberry-pi0/blob/4b7f3bf4dc8611646c52964b131ef126a1eda59f/assets/IMG-20230802-WA0021.jpg" />
 </p>
 
