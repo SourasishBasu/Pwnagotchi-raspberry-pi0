@@ -17,6 +17,10 @@
 - Using balenaEtcher flash this [image](https://drive.google.com/file/d/1CO0-47CPS6muQ8sjIbm6xOnuHNLkvWMV/view?usp=sharing) onto the microSD card
 - Once boot folder is created add the config.toml file.
   - To whitelist a particular network from getting pwned (e.g. your home network) add the network SSID within main.whitelist in the config.toml file.
+    <p align="center"> 
+      <img src="https://github.com/SourasishBasu/Pwnagotchi-raspberry-pi0/blob/4b7f3bf4dc8611646c52964b131ef126a1eda59f/assets/raspi0.png" />
+    </p>
+
 - Insert the microSD card into the RPi0 and connect it to a PC using a data cable from the data port.
 - Open view network connections and the device should show up as a RNDIS device.
   - In case it does not appear, open Device Manager.
