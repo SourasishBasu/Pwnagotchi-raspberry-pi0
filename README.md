@@ -1,11 +1,13 @@
 <p align="left"> 
    <br>
-   <img src="https://github.com/SourasishBasu/Pwnagotchi-raspberry-pi0/blob/8375bb5ee962219fba5de3d2255b88d4f2d7235d/assets/pwnagotchi.png"/>
+   <img src="https://github.com/SourasishBasu/Pwnagotchi-raspberry-pi0/blob/84acfe20ae628b100076527942129d52e1135720/assets/pwnagotchi.png"/>
 </p>
 
-# Pwnagotchi-raspberry-pi0
+# Pwnagotchi-Raspberry-Pi0
 
- A recreation of the original Pwnagotchi but with mods to support the officially unsupported Raspberry Pi 3.5 inch GPIO based screen.
+ A recreation of the original Pwnagotchi but with mods to support the officially unsupported Raspberry Pi 3.5 inch GPIO based screen. 
+ 
+Pwnagotchi is an A2C-based “AI” powered by bettercap that learns from its surrounding WiFi environment in order to maximize the crackable WPA key material it captures (either through passive sniffing or by performing deauthentication and association attacks). This material is collected on disk as PCAP files containing any form of crackable handshake supported by hashcat, including full and half WPA handshakes as well as PMKIDs.
 
  
 ## Hardware
