@@ -39,7 +39,7 @@
  Change the following settings in PuTTy and press Load to access the RPi0 using SSH.
  
  <p align="center"> 
-  <img src="https://github.com/SourasishBasu/" />
+  <img src="https://github.com/SourasishBasu/Pwnagotchi-raspberry-pi0/blob/06e5ea16d7ca78be0a6148529df75c438af54eb0/assets/putty.png" />
    <br><b>PuTTy Configuration for SSH Access</b>
 </p>
 
