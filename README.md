@@ -3,6 +3,8 @@
    <img src="https://github.com/SourasishBasu/Pwnagotchi-raspberry-pi0/blob/84acfe20ae628b100076527942129d52e1135720/assets/pwnagotchi.png"/>
 </p>
 
+[Official Documentation](https://pwnagotchi.ai/intro/)
+
 # Pwnagotchi-Raspberry-Pi0
 
  A recreation of the original Pwnagotchi but with mods to support the officially unsupported Raspberry Pi 3.5 inch GPIO based screen. 
@@ -120,15 +122,16 @@ It has a webUI hosted at http://10.0.0.2:8080/ and the username & password are b
    /etc/pwnagotchi/config.toml
   ```
 
+## Decryption
+
 - Handshakes captured by Pwnagotchi are saved to
   
   ```bash
   /root/handshakes/
   ```
-- To decrypt handshakes:
- - SSH into the device via PuTTy
- - Copy the .pcap file of the captured handshake to be decrypted from the root directory into /home/pi
-   
+- SSH into the device via PuTTy
+- Copy the .pcap file of the captured handshake to be decrypted from the root directory into /home/pi
+
    ```bash
    sudo su
    cd ..
@@ -136,9 +139,9 @@ It has a webUI hosted at http://10.0.0.2:8080/ and the username & password are b
    cp -r /handshakes /home/pi
    exit
    ```
- - Remove the microSD card from the RPi0 and access the copied .pcap file from a PC
- - Run aircrack-ng in the handshakes folder to use the RockYou wordlist to decrypt
-   
+- Remove the microSD card from the RPi0 and access the copied .pcap file from a PC
+- Run aircrack-ng in the handshakes folder to use the RockYou wordlist to decrypt
+
    ```bash
    aircrack-ng example-handshake.pcap -w /usr/share/wordlists/rockyou.txt
    ``` 
