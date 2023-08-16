@@ -34,11 +34,12 @@ Pwnagotchi is an A2C-based “AI” powered by bettercap that learns from its su
       <br><b>Raspberry Pi Zero Components</b>
   </p>
 
-- Open view network connections and the device should show up as a RNDIS device.
-  - In case it does not appear, open Device Manager.
-  - Go to Network Adapters > Action > Add Drivers
-  - Browse and add the folder containing the RNDIS.inf driver file.
-  - The RPi0W device should be visible as a RNDIS device now.
+- Open View network connections and the device should show up as a RNDIS device.
+  - In case it does not appear, download the RNDIS.inf file from the drivers folder in the repo.
+  - Go to Device Manager > Network Adapters > Action > Add Drivers
+  - Browse and add the folder containing the downloaded RNDIS.inf driver file.
+  - The RPi0WH device should be visible as a RNDIS device now.
+
 - Go to the RPi0W device Properties GUI > IPv4 > Properties
   - Add static IP: 10.0.0.1
   - Add subnet mask: 255.255.255.0
