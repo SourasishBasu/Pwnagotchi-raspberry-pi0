@@ -145,4 +145,6 @@ It has a webUI hosted at http://10.0.0.2:8080/ and the username & password are b
 
    ```bash
    aircrack-ng example-handshake.pcap -w /usr/share/wordlists/rockyou.txt
-   ``` 
+   ```
+<br>
+This project was done by the CyberSec and Cloud domain of MLSA KIIT Chapter by [Dhruv Agarwal](https://github.com/dhruvspeedcuber), [Mrinank Bhowmick](https://github.com/Mrinank-Bhowmick), [Sourasish Basu](https://github.com/SourasishBasu) and advised by [Aaryan Jordan](https://github.com/Aaryan-Jordan).
